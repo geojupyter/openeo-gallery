@@ -1,0 +1,38 @@
+[project]
+name = "openeo-gallery"
+version = "0.1.0"
+description = "OpenEO Gallery with JupyterGIS."
+authors = [
+    { name = "Martin Renou", email = "martin.renou@gmail.com" },
+    { name = "Emmanuel Mathot", email = "emmanuel@developmentseed.org" },
+    { name = "Vincent Sarago", email = "vincent@developmentseed.org" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab",
+    "jupytergis==0.16.8",
+    "openeo",
+]
+keywords = [
+    "GIS",
+    "cartography",
+    "visualization",
+    "OpenEO",
+    "JupyterGIS",
+]
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.urls]
+repository = "https://github.com/geojupyter/openeo-gallery"
+issues = "https://github.com/geojupyter/openeo-gallery/issues"

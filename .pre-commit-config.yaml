@@ -1,4 +1,10 @@
 repos:
+  - repo: https://github.com/srstevenson/nb-clean
+    rev: v6.0.0
+    hooks:
+      - id: nb-clean
+        args: [--preserve-cell-metadata-field, tags]
+
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.9.1
     hooks:
