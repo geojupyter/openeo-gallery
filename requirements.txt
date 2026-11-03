@@ -1,2 +1,0 @@
-jupytergis==0.16.8
-openeo
