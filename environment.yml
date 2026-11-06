@@ -3,7 +3,5 @@ channels:
   - conda-forge
 dependencies:
   - python=3.14
-  - pip
-  - pip:
-      - jupytergis==0.16.8
-      - openeo
+  - openeo
+  - jupytergis=0.17.2
