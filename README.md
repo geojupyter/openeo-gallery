@@ -14,3 +14,4 @@ The notebooks use the openEO backend at `https://openeo.mpc.ds.io/`.
 | [ndci_venice_lagoon.ipynb](ndci_venice_lagoon.ipynb) | Cyanobacteria chlorophyll-a (NDCI) over the Venice lagoon, June 2026. Water detection, Floating Algae Index (FAI), NDCI, chlorophyll-a concentration and a color map. Uses `firstpixel` to make a first-valid-pixel mosaic. |
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/geojupyter/openeo-gallery/main)
+[![notebook.link](https://img.shields.io/badge/notebook-link-e2d610?logo=jupyter&logoColor=white)](https://notebook.link/github/geojupyter/openeo-gallery/tree/main/lab/).
